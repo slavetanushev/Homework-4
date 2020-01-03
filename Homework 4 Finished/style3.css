@@ -1,0 +1,36 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.nav-bar-menu {
+    background-color: lightskyblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.custom-ul {
+    margin: 20px;
+    padding: 20;
+}
+
+.custom-ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 20px;
+}
+
+.custom-ul li:last-child {
+    padding-right: 0;
+}
+
+.custom-ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+.custom-ul li a:hover {
+    color: rgb(137, 125, 245);
+    text-shadow: 1px 1px rgb(211, 211, 211);
+    transition: 0.2s ease-in;
+}
